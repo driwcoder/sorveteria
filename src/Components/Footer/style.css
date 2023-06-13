@@ -1,0 +1,91 @@
+.Footer-content {
+  background-color: black;
+  color: aliceblue;
+  font-family: "Geologica", sans-serif;
+  text-align: center;
+
+}
+
+.infos {
+  background-color: black;
+  color: aliceblue;
+  padding: 100px 20px;
+  font-family: "Bagel Fat One", cursive;
+  font-family: "Cherry Bomb One", cursive;
+  font-family: "Geologica", sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.infos img {
+  width: 150px;
+}
+
+.dev-text{
+  padding: 15px 0;
+}
+
+/* !BOX INFO */
+.infos .info {
+  width: calc((100% / 4));
+  padding: 0 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  text-align: start;
+}
+.infos .info:first-of-type {
+  width: calc((100% / 4));
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.infos .info h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.infos .info h3 {
+  text-transform: uppercase;
+}
+.infos .info p {
+  font-size: 14px;
+}
+.dev-text a {
+  color: rgb(249, 219, 121);
+  text-decoration: none;
+}
+@media screen and (max-width: 768px){
+  .infos {
+    flex-direction: column;
+    padding: 30px 0;
+  }
+  .infos .info {
+    width: 100%;
+    padding: 0 10px;
+    margin: 20px 0;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+  
+    text-align: center;
+  }
+  .infos .info img{
+    width: 100px;
+  }
+  .dev-text {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 436px){
+  
+}

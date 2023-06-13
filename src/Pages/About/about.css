@@ -1,0 +1,76 @@
+.about-banner {
+  margin-top: 106.81px;
+  background-image: url('../../../public/banner-sobre.png');
+  height: 70vh;
+  width: 100%;
+
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-banner-texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 10px;
+  color: white;
+  text-shadow: 4px 4px 2px rgb(51, 51, 51);
+  font-size: 4em;
+}
+
+.about-content {
+  text-align: center;
+  max-width: 1440px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+.about-content h2 {
+  font-size: 1.8em;
+}
+.about-content h3 {
+  font-size: 1.3em;
+}
+.about-content p {
+  font-size: 1em;
+  margin-top: 25px;
+}
+
+.imagens {
+  display: flex;
+  flex-direction: column;
+}
+.imagens img {
+  margin: 50px 0;
+}
+
+@media screen and (max-width: 502px){
+  
+  .about-banner .about-banner-texto h2 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 437px){
+  .about-banner {
+    margin-top: 0px;
+    
+  }
+  .imagens img {
+    margin: 0px ;
+  }
+  .imagens img:first-of-type {
+    margin-top: 40px;
+  }
+  .imagens img:last-child {
+    margin-bottom: 0px;
+    padding-bottom: 0;
+  }
+}

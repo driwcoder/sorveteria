@@ -1,0 +1,13 @@
+.Main-content {
+  margin-top: 106.81px;
+}
+
+@media screen and (max-width: 768px){
+  
+}
+
+@media screen and (max-width: 436px){
+  .Main-content {
+    margin-top: -1px;
+  }
+}
