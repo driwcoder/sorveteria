@@ -26,10 +26,13 @@
   text-shadow: 4px 4px 2px rgb(51, 51, 51);
 }
 .Banner-content img {
-  width: 620px;
+  width: fit-content;
+  height: auto;
 }
 @media screen and (max-width: 750px) {
   .Banner-content img {
-    width: 100%;
+    width: fit-content;
+    height: auto;
+    margin-top: 50px;
   }
 }
